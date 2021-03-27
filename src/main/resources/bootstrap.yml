@@ -1,0 +1,12 @@
+spring:
+    application:
+        name: vault-service
+    jmx:
+        default-domain: vault-service
+
+#eureka:
+#    client:
+#        register-with-eureka: false
+#        fetch-registry: false
+#        healthcheck:
+#            enabled: false

@@ -1,0 +1,17 @@
+logging:
+  level:
+    ROOT: INFO
+    com.chornyi.spring: INFO
+
+server:
+  port: 8080
+
+spring:
+  cloud:
+    vault:
+      enable: true
+      host: localhost
+      port: 8200
+      token: 00000000-0000-0000-0000-000000000000
+      scheme: http
+
